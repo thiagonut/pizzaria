@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    align-items: center; 
+    color:#fff;
+}
+
+ul, li {
+    display: inline-block;
+    
+}
+a {
+    text-decoration: none;
+    margin-left: 16px;
+    color: #fff;
+    
+}
+.image__logo {
+    width: 72px;
+    height: 72px;
+}
+
+@media (max-width: 600px){
+    .lista__menu {
+        display: none;
+    }
+}
